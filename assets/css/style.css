@@ -1526,10 +1526,10 @@ body.active { overflow-y: hidden; }
   }
 
   .btn-sign_in::after {
-    content: "";
+    content: ""; 
     position: absolute;
     top: 50%;
-    left: -20px;
+    left: -10px;
     transform: translateY(-50%);
     width: 5px;
     height: 40px;
@@ -1546,7 +1546,7 @@ body.active { overflow-y: hidden; }
     padding: 6px;
     margin-right: 5px;
     box-shadow: 0 3px 7px hsla(345, 75%, 30%, 0.2),
-                inset 0 3px 7px 0 hsla(335, 53%, 14%, 0.4);
+    inset 0 3px 7px 0 hsla(335, 53%, 14%, 0.4);
   }
 
   .btn-sign_in .icon-box ion-icon { --ionicon-stroke-width: 40px; }
